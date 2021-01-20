@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:border="clr-namespace:Syncfusion.XForms.Border;assembly=Syncfusion.Core.XForms"
+             x:Class="GettingStarted.MainPage">
+
+    <ContentPage.Content>
+        <Grid>
+            <border:SfBorder 
+   BorderColor="Red"
+   BackgroundColor="#ffb6c1" 
+   HorizontalOptions="Center" 
+   VerticalOptions="Center"
+   BorderWidth="3">
+                <Label 
+  Text="Rose" 
+  Margin="10" 
+  Font="15"  />
+            </border:SfBorder>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
